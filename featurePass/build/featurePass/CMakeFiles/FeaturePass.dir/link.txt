@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -Wl,-rpath-link,  -Wl,-O3 -Wl,--gc-sections -shared  -o FeaturePass.so CMakeFiles/FeaturePass.dir/featurePass.cpp.o  -Wl,-rpath,"\$ORIGIN/../lib:/home/jnu_llvm/llvm13.0.0-sw1.0.3/tools/lib" /home/jnu_llvm/llvm13.0.0-sw1.0.3/tools/lib/libLLVM-13.so 
